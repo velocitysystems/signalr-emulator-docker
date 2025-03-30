@@ -16,11 +16,8 @@ This repository contains a Dockerfile for setting up an [Azure SignalR Local Emu
 
 2. **Run the Container**:
     ```bash
-    docker run -d -p 8080:8080 signalr-emulator
+    docker run -d -p 8888:8888 signalr-emulator
     ```
-
-3. **Access the Emulator**:
-    The emulator will be available at `http://localhost:8080`.
 
 ### Prerequisites
 - Docker must be installed on your system.

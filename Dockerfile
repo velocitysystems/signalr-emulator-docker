@@ -13,5 +13,8 @@ ENV PATH="${PATH}:/root/.dotnet/tools"
 # Expose the default SignalR Emulator port
 EXPOSE 8888
 
+# Initialize default upstream options
+RUN asrs-emulator upstream init
+
 # Set the entry point to run the emulator
 CMD ["asrs-emulator", "start", "-i", "0.0.0.0"]
