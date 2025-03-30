@@ -1,7 +1,6 @@
 # signalr-emulator-docker
-Azure SignalR Local Emulator for Docker
 
-This repository contains a Dockerfile for setting up an Azure SignalR Local Emulator in a containerized environment. The Dockerfile is designed to simplify the process of running the emulator locally for development and testing purposes.
+This repository contains a Dockerfile for setting up an [Azure SignalR Local Emulator](https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-howto-emulator) in a containerized environment. The Dockerfile is designed to simplify the process of running the emulator locally for development and testing purposes.
 
 ### Features
 - Runs the Azure SignalR Local Emulator in a Docker container.
@@ -31,4 +30,4 @@ This repository contains a Dockerfile for setting up an Azure SignalR Local Emul
 You can modify the Dockerfile to suit your specific requirements, such as changing the exposed ports or adding additional dependencies.
 
 ### Legal
-SignalR is a registered trademark of Microsoft Corporation. This project is not affiliated with or endorsed by Microsoft.
+SignalR™ is a registered trademark of Microsoft Corporation. This project is not affiliated with or endorsed by Microsoft Corporation.
